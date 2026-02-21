@@ -1,16 +1,18 @@
-{% load static %} <!DOCTYPE html>
+{% load static %} 
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% load static %}
     <link rel="stylesheet" href="{% static 'admin/css/notas/style.css' %}">
-    <title>Notas</title>
+    <title>Dashboard</title>
 </head>
 <body>
     
-    <h1>Página Inicial do Sistema</h1>
-    <a href="{% url 'dash' %}">Dashboard</a>
+    <h1>Bem-vindo ao Dashboard</h1>
+    <a href="{% url 'index' %}">Voltar para a Página Inicial</a>
     
    
 
