@@ -1,0 +1,21 @@
+Foi configurado o SECRETKEY
+
+Feito a criação do arquivo .gitignore
+
+Foi usado o comando python manage.py runserver  para rodar servidor
+
+O comando python manage.py startapp notas  - criou um novo modulo de app
+
+Para a integração ser feita, foi adicionado notas em
+
+Setup/settings.py
+
+
+
+Agora no arquivo Views.py
+
+instalar um arquivo do HTTP - usando o proprio Django
+
+Fazer as configurações do urls
+
+
